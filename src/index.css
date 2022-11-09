@@ -70,6 +70,8 @@ form {
   border: none;
   width: 100%;
   transition: background-color .3s ease;
+  cursor: pointer;
+  border-radius: 7px;
 }
 @media (min-width: 768px) {
    input[type="submit"]  {
@@ -109,4 +111,16 @@ form {
   display: flex;
   justify-content: center;
   gap: 2rem;
+}
+
+.alerta{
+  background-color: rgb(241, 97, 97);
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 7px;
+  color: white;
+}
+
+.alerta-result{
+  text-align: center;
 }

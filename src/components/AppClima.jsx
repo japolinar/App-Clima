@@ -16,8 +16,8 @@ const AppClima = () => {
         {
           cargando ? <Spinner/> :
           resultado?.name ? <Resultado/> :
-          noResultado ? <p> {noResultado} </p> :
-          <p>El Clima no se va a mostrar aqui</p>
+          noResultado ? <p className='alerta'> {noResultado} </p> :
+          <p className='alerta-result'>El Clima no se va a mostrar aqui</p>
         }
         
       </main>
